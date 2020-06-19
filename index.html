@@ -109,14 +109,14 @@
     <div class="portfolio_area">
         <!-- <div class="container-fluid p-0"> -->
             <div class="portfolio_wrap">
-                <div class=" single_gallery">
+                <div class=" single_gallery" >
                     <div class="thumb">
                         <img src="img/portfolio/1.png" alt="">
                     </div>
                     <div class="gallery_hover">
                         <div class="hover_inner">
                                 <span>Mobile App</span>
-                                <a href="work_details.html"> <h3>Ubar Mobile App</h3></a>
+                                <a href="#work-title" onclick="work_details(0);"> <h3>Ubar Mobile App</h3></a>
                                 
                         </div>
                     </div>
@@ -128,7 +128,7 @@
                     <div class="gallery_hover">
                             <div class="hover_inner">
                                     <span>Mobile App</span>
-                                    <a href="work_details.html"> <h3>Ubar Mobile App</h3></a>
+                                    <a href="#work-title" onclick="work_details(1);"> <h3>Ubar Mobile App</h3></a>
                             </div>
                         </div>
                 </div>
@@ -139,7 +139,7 @@
                     <div class="gallery_hover">
                             <div class="hover_inner">
                                     <span>Mobile App</span>
-                                    <a href="work_details.html"> <h3>Ubar Mobile App</h3></a>
+                                    <a href="#work-title" onclick="work_details(2);"> <h3>Ubar Mobile App</h3></a>
                             </div>
                         </div>
                 </div>
@@ -150,7 +150,7 @@
                     <div class="gallery_hover">
                             <div class="hover_inner">
                                     <span>Mobile App</span>
-                                    <a href="work_details.html"> <h3>Ubar Mobile App</h3></a>
+                                    <a href="#work-title" onclick="work_details(3);"> <h3>Ubar Mobile App</h3></a>
                             </div>
                         </div>
                 </div>
@@ -161,7 +161,7 @@
                     <div class="gallery_hover">
                             <div class="hover_inner">
                                     <span>Mobile App</span>
-                                    <a href="work_details.html"> <h3>Ubar Mobile App</h3></a>
+                                    <a href="#work-title" onclick="work_details(4);"> <h3>Ubar Mobile App</h3></a>
                             </div>
                         </div>
                 </div>
@@ -172,7 +172,7 @@
                     <div class="gallery_hover">
                             <div class="hover_inner">
                                     <span>Mobile App</span>
-                                    <a href="work_details.html"> <h3>Ubar Mobile App</h3></a>
+                                    <a href="#work-title" onclick="work_details(5);"> <h3>Ubar Mobile App</h3></a>
                             </div>
                         </div>
                 </div>
@@ -183,7 +183,7 @@
                     <div class="gallery_hover">
                             <div class="hover_inner">
                                     <span>Mobile App</span>
-                                    <a href="work_details.html"> <h3>Ubar Mobile App</h3></a>
+                                    <a href="#work-title" onclick="work_details(6);"> <h3>Ubar Mobile App</h3></a>
                             </div>
                         </div>
                 </div>
@@ -194,7 +194,7 @@
                     <div class="gallery_hover">
                             <div class="hover_inner">
                                     <span>Mobile App</span>
-                                    <a href="work_details.html"> <h3>Ubar Mobile App</h3></a>
+                                    <a href="#work-title" onclick="work_details(7);"> <h3>Ubar Mobile App</h3></a>
                             </div>
                         </div>
                 </div>
@@ -205,17 +205,19 @@
                     <div class="gallery_hover">
                             <div class="hover_inner">
                                     <span>Mobile App</span>
-                                    <a href="work_details.html"> <h3>Ubar Mobile App</h3></a>
+                                    <a href="#work-title" onclick="work_details(8);"> <h3>Ubar Mobile App</h3></a>
                             </div>
                         </div>
                 </div>
             </div>
         <!-- </div> -->
+        <!-- selected project name -->
+
         <div class="more_works text-center">
-            <a href="portfolio-work.html">More Works</a>
+            <a id="work-title">More Works</a>
         </div>
     </div>
-
+    <!-- selected project details -->
     <div id="work-details-container">
     </div>
     <!-- service_area  -->
